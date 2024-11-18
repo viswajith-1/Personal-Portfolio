@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
 </head>
-<body>
+
+<body class="contact-body">
     <nav>
         <a href="home.html">Home</a>
         <a href="about.html">About</a>
@@ -17,21 +22,16 @@
         <a href="contact.html">Contact</a>
     </nav>
     <br>
-    <div class="contact-main">
-        <div class="contact-area">
-            <div class="contact-box">
-                <div class="right">
-                    <h2 class="contact-text">Contact Us</h2>
-                    <br>
-                    <div class="textarea-class">
-                    <textarea type="text" class="field" placeholder="Your Name"></textarea>
-                    <textarea type="text" class="field" placeholder="Your Email"></textarea>
-                    <textarea type="text" class="field" placeholder="Phone"></textarea>
-                    <textarea placeholder="Message" class="field"></textarea>
-                    <button class="btn">Send</button>
-                </div>
-            </div>
-        </div>
+    <br>
+    <div class="contact-section">
+        <h1 style="color: rgb(247, 87, 87);">CONTACT ME</h1>
+        <form action="GET">
+            <textarea name="username" id="username" placeholder="username"></textarea><br><br>
+            <textarea name="email" id="email" placeholder="email"></textarea><br><br>
+            <textarea name="message" id="message" placeholder="message"></textarea><br><br>
+            <button type="submit">Send Message</button>
+        </form>
     </div>
 </body>
+
 </html>
